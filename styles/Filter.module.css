@@ -1,0 +1,88 @@
+.main{
+    width: 450px;
+    height: 180px;
+    position: absolute;
+    top: 50px;
+    right:20px;
+    border-radius: 10px;
+    box-shadow: 10px 11px 30px -6px rgba(109, 109, 109, 0.58);
+    z-index: 10;
+    background: white;
+    transition: all 0.55s ease;
+}
+.main_off{
+    visibility: hidden;
+    width: 0px;
+    height: 180px;
+    position: absolute;
+    top: 50px;
+    right:20px;
+    border-radius: 10px;
+    z-index: 10;
+    background: white;
+    color: transparent;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+    transition: all 0.5s ease;
+}
+
+.container{
+    background: red;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.div_sections{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+    padding:0.8rem;
+    padding-top: 0.3rem;
+    background: white;
+}
+.sections{
+    background: yellow;
+    width: 33%;
+}
+.div_section{
+    width: 100%;
+    background: red;
+}
+.h3_sectors{
+    font-size: 0.8rem;
+}
+.options{
+    background: green;
+    width: 33%;
+    position: relative;
+}
+.div_search{
+    width: 100%;
+    position: relative;
+}
+.input_search{
+    outline: none;
+    border-style: none;
+    width: 100%;
+    height: 20px;
+}
+.options_selected{
+    background: pink;
+    width: 33%;
+}
+.div_button{
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+}
+.button_cancel{
+    background: white;
+    border-style: none;
+}
+.button_consult{
+    background: white;
+    border-style: none;
+}
